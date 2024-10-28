@@ -16,6 +16,7 @@ jobs:
       - name: Zip files into .mrpack
         run: "zip 'Jan\\'s Tech Pack - 1st Edition'.mrpack *"
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
-          name: "'Jan\\'s Tech Pack - 1st Edition'.mrpack"
+          name: modrinth-pack
+          path: "'Jan\\'s Tech Pack - 1st Edition'.mrpack"
