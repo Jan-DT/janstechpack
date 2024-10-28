@@ -1,0 +1,21 @@
+name: Build .mrpack file
+
+on:
+  push:
+  pull_request_review: 
+  workflow_dispatch:
+
+jobs:
+  build-mrpack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install zip
+        uses: montudor/action-zip@v1
+      - name: Zip files into .mrpack
+        run: "zip 'Jan\\'s Tech Pack - 1st Edition'.mrpack *"
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: "'Jan\\'s Tech Pack - 1st Edition'.mrpack"
