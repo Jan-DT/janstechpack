@@ -126,6 +126,21 @@
       "fileSize": 5152
     },
     {
+      "path": "mods/argonauts-forge-1.20.1-1.0.10.jar",
+      "hashes": {
+        "sha1": "897c1f82873d8297c11e452737b1d32c690a00de",
+        "sha512": "7048563f30eabe16574821beb23a4b451b30c06728a755ca9e94ca8c14a599b6de666d47aed40de9e6e7893ee359f4d4de071749a5c2a60f96978776a14f4931"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/bb2EpKpx/versions/r0eKAc5z/argonauts-forge-1.20.1-1.0.10.jar"
+      ],
+      "fileSize": 644788
+    },
+    {
       "path": "mods/letsdo-nethervinery-forge-1.2.14.jar",
       "hashes": {
         "sha512": "2329d2bbb53b061609f64b243a084dafb8ec905ec8aef0bfcec23b89fb7642a6017257bac844d63feba798ac6c8e0368f1e98506361e64f36b4e3d79ff829459",
