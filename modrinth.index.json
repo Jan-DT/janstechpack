@@ -28,7 +28,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/ndHYMY2K/versions/5ReUnF0C/oculus-flywheel-compat-forge1.20.1%2B1.1.3b.jar"
@@ -777,7 +777,7 @@
         "sha1": "f71c3fa60bb7dc5999965d951569e4db8d23c694"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [
@@ -1662,7 +1662,7 @@
         "sha512": "20d973e57ac7c20fe8f3a6f5cd75b46d3362a7f7ec408750f15894ce98c14174f083535abeff8640c21e53411cceef6387442141bf98a694b0e3ba4d18804257"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [
@@ -1678,7 +1678,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/GchcoXML/versions/vVuYfukI/oculus-mc1.20.1-1.7.0.jar"
@@ -2637,7 +2637,7 @@
         "sha1": "b918de5212256c7f39acd2d125ec12704a226a3c"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [
@@ -2667,7 +2667,7 @@
         "sha1": "e6463fb80bc89ec3f106c031bb975b24f7c6c667"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [
